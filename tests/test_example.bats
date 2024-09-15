@@ -1,6 +1,6 @@
 #!/usr/bin/env bats
 
-load ../src/example.sh
+load ../src/lib.sh
 
 @test "addition of two positive numbers" {
   result=$(add 2 3)
